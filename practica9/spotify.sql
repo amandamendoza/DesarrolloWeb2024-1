@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 05-06-2024 a las 19:25:16
+-- Tiempo de generación: 06-06-2024 a las 06:27:19
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -83,6 +83,34 @@ CREATE TABLE `canciones` (
   `activo` tinyint(1) NOT NULL,
   `foto` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Volcado de datos para la tabla `canciones`
+--
+
+INSERT INTO `canciones` (`id`, `nombre`, `genero_id`, `duracion`, `fecha`, `activo`, `foto`) VALUES
+(1, '0X1=LOVESONG (I Know I Love You) feat. Seori', 1, '03:35:00', '2021-05-31', 1, ''),
+(2, 'Run Away', 1, '05:16:00', '2019-10-21', 0, ''),
+(3, 'Devil by the Window', 1, '03:26:00', '2023-02-21', 0, ''),
+(4, 'Deja Vu', 1, '04:00:00', '2024-04-01', 0, ''),
+(7, 'Crown', 1, '03:46:00', '2019-03-04', 0, ''),
+(8, 'Cat & Dog', 1, '03:41:00', '2019-04-24', 0, ''),
+(9, 'Can\'t You See Me?', 1, '03:50:00', '2020-05-18', 0, ''),
+(10, 'Blue Hour\r\n', 1, '03:42:00', '2020-10-26', 0, ''),
+(11, 'La Gran Señora', 9, '03:22:00', '2009-08-28', 0, ''),
+(12, 'Inolvidable', 9, '03:29:00', '2011-08-27', 0, ''),
+(13, 'Por Que No Le Calas', 9, '02:59:00', '2003-01-01', 0, ''),
+(14, 'Mariposa de Barrio', 9, '03:25:00', '2017-06-02', 0, ''),
+(15, 'Resulta', 9, '03:26:00', '2009-10-20', 0, ''),
+(16, 'Dama Divina', 9, '03:14:00', '2012-07-03', 0, ''),
+(17, 'Detrás de Mi Ventana', 9, '03:40:00', '2009-10-20', 0, ''),
+(18, 'Besos y Copas', 9, '03:39:00', '2009-10-20', 0, ''),
+(19, 'Culpable o Inocente', 9, '03:01:00', '2009-07-14', 0, ''),
+(20, 'Por Un Amor', 9, '02:50:00', '2006-03-21', 0, ''),
+(21, 'Sugar, We\'re Goin Down', 10, '03:49:00', '2005-04-20', 0, ''),
+(22, 'Thnks fr th Mmrs', 10, '03:23:00', '2007-04-09', 0, ''),
+(23, 'Centuries', 10, '03:48:00', '2014-09-09', 0, ''),
+(24, 'Dance, Dance', 10, '03:00:00', '2005-09-15', 0, '');
 
 -- --------------------------------------------------------
 
@@ -292,7 +320,7 @@ ALTER TABLE `artista_canciones`
 -- AUTO_INCREMENT de la tabla `canciones`
 --
 ALTER TABLE `canciones`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT de la tabla `favoritas`
