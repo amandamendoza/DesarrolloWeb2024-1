@@ -1,0 +1,17 @@
+grupos2022AVP
+ grupo vc5 /pk /nn
+ aula intturno vc10
+ Especialidad vc15
+ edificio vc15
+
+alumnos2022AVP
+ no_control num(14) /pk /nn
+ nombre vc15
+ domicilio vc200
+ grupo vc5 /fk grupos2022AVP
+ curp vc18
+ sexo vc10
+ telefono vc15
+ email vc325
+ fecha_de_nacimiento tstz
+ statud vc1
