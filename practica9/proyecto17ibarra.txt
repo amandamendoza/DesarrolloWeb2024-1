@@ -15,3 +15,27 @@ alumnos2022AVP
  email vc325
  fecha_de_nacimiento tstz
  statud vc1
+
+
+Proyecto 14:
+Agenda
+ Nombre_Contacto vc100
+ Fecha_Hora_De_Inicio tstz
+ Fecha_Hora_De_Termino tstz
+ Telefono vc15
+ e_meil vc255
+ Previsiones vc200
+ Viaticos_asignados num
+ Viaticos_comprobados num
+ Nombre_lugar vc100
+ Calle_Y_Numero vc50
+ Colonia vc50
+ Estaado vc20
+ Pais vc50
+ CP vc9
+ Latitud vc11
+ Longitud vc11
+ Participantes vc300
+ Orden_del_dia vc500
+ Documentacion vc170
+ Bitacora file
