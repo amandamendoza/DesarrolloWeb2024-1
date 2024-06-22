@@ -1,0 +1,10 @@
+consulta3
+obtener listado (NOMBRE Y APELLIDO) de alumnos que tengan beca
+
+Consulta 4
+obtener listado de profesores (NOMBRE Y APELLIDO), y su nombre contacto
+
+consulta #5
+obtener  listado de alumno (todos los campos) que estan inscritos a la asignatura de programacion
+
+consulta #6
