@@ -1,10 +1,15 @@
 consulta3
 obtener listado (NOMBRE Y APELLIDO) de alumnos que tengan beca
+SELECT alumno.nombre, alumno.apellido1, alumno.apellido2 FROM alumno WHERE beca like 'si';
 
 Consulta 4
 obtener listado de profesores (NOMBRE Y APELLIDO), y su nombre contacto
+SELECT profesor.nombre, profesor.apellido1, tlfcontactoprof.telefono FROM profesor INNER JOIN tlfcontactoprof ON profesor.idProfesor = tlfcontactoprof.idProfesor
 
 consulta #5
 obtener  listado de alumno (todos los campos) que estan inscritos a la asignatura de programacion
 
 consulta #6
+obtener listado de profesor y asignatura que implica
+
+consulta #7
