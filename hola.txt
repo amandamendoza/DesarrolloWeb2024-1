@@ -8,6 +8,7 @@ SELECT profesor.nombre, profesor.apellido1, tlfcontactoprof.telefono FROM profes
 
 consulta #5
 obtener  listado de alumno (todos los campos) que estan inscritos a la asignatura de programacion
+SELECT alumno.*, asignatura.nombre FROM alumno INNER JOIN matricula ON matricula.idAlumno = alumno.idAlumno INNER JOIN asignatura on asignatura.idAsignatura = matricula.idAsignatura WHERE asignatura.idAsignatura LIKE 'ASOO9'
 
 consulta #6
 obtener listado de profesor y asignatura que implica
